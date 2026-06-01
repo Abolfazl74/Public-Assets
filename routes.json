@@ -38,7 +38,23 @@
       "eu.battle.net",
       "us.battle.net",
       "kr.battle.net",
-      "prod.realms.battle.net"
+      "prod.realms.battle.net",
+      "gateway.battle.net",
+      "firehose.battle.net",
+      "social.battle.net",
+      "friends.battle.net",
+      "presence.battle.net",
+      "api.battle.net"
+    ],
+    "akamaitechnologies.com": [
+      "bnetfront-001.akamaitechnologies.com",
+      "bnetfront-002.akamaitechnologies.com",
+      "bnetfront-003.akamaitechnologies.com"
+    ],
+    "bnet.io": [
+      "api.bnet.io",
+      "friends.bnet.io",
+      "presence.bnet.io"
     ],
     "blizzard.com": [
       "www.blizzard.com",
@@ -148,6 +164,8 @@
       "processes": [
         "Battle.net.exe",
         "Battle.net Launcher.exe",
+        "Battle.net Helper.exe",
+        "BlizzardBrowser.exe",
         "Agent.exe",
         "BlizzardError.exe"
       ],
@@ -157,16 +175,26 @@
         "137.221.104.0/24",
         "136.110.175.0/24",
         "136.110.188.0/24",
+        "34.125.60.0/24",
+        "34.110.236.0/24",
+        "34.16.217.0/24",
+        "34.16.235.0/24",
+        "34.16.253.0/24",
+        "3.67.205.0/24",
+        "99.83.167.0/24",
+        "18.64.211.0/24",
         "24.105.0.0/20",
         "185.60.112.0/22",
         "80.239.171.0/24",
         "199.108.0.0/16",
-        "5.42.168.0/22"
+        "5.42.168.0/22",
+        "2607:f2f8::/32"
       ],
       "domains": [
         "*.battle.net",
         "*.blizzard.com",
         "*.akamaitechnologies.com",
+        "*.bnet.io",
         "battle.net",
         "battlenet.com",
         "blizzard.com",
