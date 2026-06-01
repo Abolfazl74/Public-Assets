@@ -41,7 +41,7 @@
     "name": "Discord",
     "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/discord.png",
     "description": "Voice & chat",
-    "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe", "com.discord"],
+    "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe", "update.exe"],
     "cidrs": [
       "162.159.0.0/16",
       "162.158.0.0/15",
@@ -80,10 +80,11 @@
       "24.105.0.0/20",
       "18.64.211.0/24",
       "142.250.75.0/24",
+      "142.251.14.0/24",
       "85.132.112.0/24",
-      "142.250.202.0/24",
       "34.125.60.0/24",
       "34.16.235.0/24",
+      "34.16.253.0/24",
       "34.16.217.0/24",
       "34.110.236.0/24",
       "34.125.113.0/24",
@@ -97,10 +98,24 @@
     "domains": [
       "battle.net",
       "battlenet.com",
-      "blizzard.com",
       "blizzard.cn",
+      "blizzard.com",
+      "blizzardgames.cn",
+      "blizzardgearstore.com",
+      "blizzcon-a.akamaihd.net",
+      "blz-contentstack.com",
+      "blz.nosdn.127.net",
+      "blzddist1-a.akamaihd.net",
+      "blzmedia-a.akamaihd.net",
+      "blznav.akamaized.net",
       "blzstatic.cn",
-      "battlenet.com.cn"
+      "cdp.cloud.unity3d.com",
+      "battlenet.com.cn",
+      "blizzard.nefficient.co.kr",
+      "blzddistkr1-a.akamaihd.net",
+      "akamaized.net",
+      "bnetcmsus-a.akamaihd.net",
+      "blizzard-api.arkoselabs.com"
     ]
   },
   {
