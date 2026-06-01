@@ -1,68 +1,4 @@
 {
-  "subdomain_lists": {
-    "telegram.org": [
-      "api.telegram.org",
-      "pluto.web.telegram.org",
-      "venus.web.telegram.org",
-      "flora.web.telegram.org",
-      "aurora.web.telegram.org",
-      "k.telegram.org",
-      "z.telegram.org",
-      "socks.telegram.org",
-      "webrtc.telegram.org",
-      "web.telegram.org",
-      "core.telegram.org",
-      "desktop.telegram.org"
-    ],
-    "discord.com": [
-      "status.discord.com",
-      "cdn.discordapp.com",
-      "latency.discord.media"
-    ],
-    "discord.gg": [
-      "gateway.discord.gg",
-      "remote-auth-gateway.discord.gg"
-    ],
-    "discordapp.net": [
-      "images-ext-1.discordapp.net",
-      "images-ext-2.discordapp.net",
-      "media.discordapp.net"
-    ],
-    "battle.net": [
-      "www.battle.net",
-      "account.battle.net",
-      "telemetry-in.battle.net",
-      "oauth.battle.net",
-      "download.battle.net",
-      "patch.battle.net",
-      "eu.battle.net",
-      "us.battle.net",
-      "kr.battle.net",
-      "prod.realms.battle.net",
-      "gateway.battle.net",
-      "firehose.battle.net",
-      "social.battle.net",
-      "friends.battle.net",
-      "presence.battle.net",
-      "api.battle.net"
-    ],
-    "bnet.io": [
-      "api.bnet.io",
-      "friends.bnet.io",
-      "presence.bnet.io"
-    ],
-    "akamaihd.net": [
-      "blizzcon-a.akamaihd.net",
-      "blzddist1-a.akamaihd.net",
-      "blzmedia-a.akamaihd.net",
-      "blzddistkr1-a.akamaihd.net",
-      "bnetcmsus-a.akamaihd.net"
-    ],
-    "akamaized.net": [
-      "blzprofile.akamaized.net",
-      "blznav.akamaized.net"
-    ]
-  },
   "routes": [
     {
       "name": "Telegram",
@@ -101,6 +37,18 @@
         "tdesktop.com"
       ],
       "subdomains": [
+        "api.telegram.org",
+        "pluto.web.telegram.org",
+        "venus.web.telegram.org",
+        "flora.web.telegram.org",
+        "aurora.web.telegram.org",
+        "k.telegram.org",
+        "z.telegram.org",
+        "socks.telegram.org",
+        "webrtc.telegram.org",
+        "web.telegram.org",
+        "core.telegram.org",
+        "desktop.telegram.org",
         "comments.app",
         "contest.com",
         "graph.org",
@@ -140,6 +88,14 @@
         "discord.partners"
       ],
       "subdomains": [
+        "status.discord.com",
+        "cdn.discordapp.com",
+        "latency.discord.media",
+        "gateway.discord.gg",
+        "remote-auth-gateway.discord.gg",
+        "images-ext-1.discordapp.net",
+        "images-ext-2.discordapp.net",
+        "media.discordapp.net",
         "discordstatus.com",
         "discordcdn.com"
       ]
@@ -198,6 +154,46 @@
         "bnet.io"
       ],
       "subdomains": [
+        "www.battle.net",
+        "account.battle.net",
+        "telemetry-in.battle.net",
+        "oauth.battle.net",
+        "download.battle.net",
+        "patch.battle.net",
+        "eu.battle.net",
+        "us.battle.net",
+        "kr.battle.net",
+        "prod.realms.battle.net",
+        "gateway.battle.net",
+        "firehose.battle.net",
+        "social.battle.net",
+        "friends.battle.net",
+        "presence.battle.net",
+        "api.battle.net",
+        "bnetfront-001.akamaitechnologies.com",
+        "bnetfront-002.akamaitechnologies.com",
+        "bnetfront-003.akamaitechnologies.com",
+        "bnetfront-004.akamaitechnologies.com",
+        "bnetfront-005.akamaitechnologies.com",
+        "bnetfront-ffuswartowa-01.akamaitechnologies.com",
+        "bnetfront-ffuswartowa-02.akamaitechnologies.com",
+        "api.bnet.io",
+        "friends.bnet.io",
+        "presence.bnet.io",
+        "www.blizzard.com",
+        "launcher.blizzard.com",
+        "patch.blizzard.com",
+        "wow.blizzard.com",
+        "worldofwarcraft.blizzard.com",
+        "static.worldofwarcraft.com",
+        "level3.blizzard.com",
+        "blizzcon-a.akamaihd.net",
+        "blzddist1-a.akamaihd.net",
+        "blzmedia-a.akamaihd.net",
+        "blzddistkr1-a.akamaihd.net",
+        "bnetcmsus-a.akamaihd.net",
+        "blzprofile.akamaized.net",
+        "blznav.akamaized.net",
         "blz-contentstack.com",
         "blz.nosdn.127.net",
         "blzstatic.cn",
