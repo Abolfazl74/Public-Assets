@@ -1,7 +1,7 @@
 [
   {
     "name": "Telegram",
-    "icon": "https://telegram.org/img/t_logo.png",
+    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/telegram.png",
     "description": "Messaging",
     "processes": ["Telegram.exe", "Telegram Desktop", "org.telegram.messenger"],
     "cidrs": [
@@ -39,7 +39,7 @@
   },
   {
     "name": "Discord",
-    "icon": "https://discord.com/assets/favicon.ico",
+    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/discord.png",
     "description": "Voice & chat",
     "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe", "com.discord"],
     "cidrs": [
@@ -64,6 +64,44 @@
       "gateway.discord.gg",
       "remote-auth-gateway.discord.gg",
       "discordcdn.com"
+    ]
+  },
+  {
+    "name": "Battle.net",
+    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/battlenet.png",
+    "description": "Game launcher",
+    "processes": ["Battle.net.exe", "Agent.exe", "BlizzardError.exe", "Battle.net Helper.exe"],
+    "cidrs": [
+      "137.221.64.0/18",
+      "24.105.0.0/20",
+      "185.60.112.0/22",
+      "80.239.171.0/24",
+      "5.42.168.0/22"
+    ],
+    "domains": [
+      "battle.net",
+      "battlenet.com",
+      "blizzard.com",
+      "blizzard.cn",
+      "blzstatic.cn",
+      "battlenet.com.cn"
+    ]
+  },
+  {
+    "name": "World of Warcraft",
+    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/wow.png",
+    "description": "MMORPG",
+    "processes": ["Wow.exe", "WowClassic.exe", "WowB.exe", "WowT.exe"],
+    "cidrs": [
+      "137.221.64.0/18",
+      "24.105.0.0/20",
+      "185.60.112.0/22"
+    ],
+    "domains": [
+      "worldofwarcraft.com",
+      "wowclassic.com",
+      "battle.net",
+      "blizzard.com"
     ]
   }
 ]
