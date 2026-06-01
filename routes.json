@@ -113,6 +113,8 @@
         "BlizzardError.exe"
       ],
       "cidrs": [
+        "37.244.0.0/16",
+        "66.40.0.0/16",
         "137.221.64.0/18",
         "137.221.105.0/24",
         "137.221.104.0/24",
@@ -138,6 +140,7 @@
         "*.blizzard.com",
         "*.akamaitechnologies.com",
         "*.bnet.io",
+        "*.akamaized.net",
         "battle.net",
         "akamaitechnologies.com",
         "battlenet.com",
@@ -145,12 +148,15 @@
         "blizzard.cn",
         "blizzardgames.cn",
         "blizzardgearstore.com",
+        "telemetry-in.battle.net",
+        "bnetcmsus-a.akamaihd.net",
         "battlenet.com.cn",
         "account.battle.net",
         "oauth.battle.net",
         "friends.battle.net",
         "presence.battle.net",
         "api.battle.net",
+        "blizzard-api.arkoselabs.com",
         "bnet.io"
       ],
       "subdomains": [
