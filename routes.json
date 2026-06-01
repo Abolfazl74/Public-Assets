@@ -46,28 +46,10 @@
       "presence.battle.net",
       "api.battle.net"
     ],
-    "akamaitechnologies.com": [
-      "bnetfront-001.akamaitechnologies.com",
-      "bnetfront-002.akamaitechnologies.com",
-      "bnetfront-003.akamaitechnologies.com",
-      "bnetfront-004.akamaitechnologies.com",
-      "bnetfront-005.akamaitechnologies.com",
-      "bnetfront-ffuswartowa-01.akamaitechnologies.com",
-      "bnetfront-ffuswartowa-02.akamaitechnologies.com"
-    ],
     "bnet.io": [
       "api.bnet.io",
       "friends.bnet.io",
       "presence.bnet.io"
-    ],
-    "blizzard.com": [
-      "www.blizzard.com",
-      "launcher.blizzard.com",
-      "patch.blizzard.com",
-      "wow.blizzard.com",
-      "worldofwarcraft.blizzard.com",
-      "static.worldofwarcraft.com",
-      "level3.blizzard.com"
     ],
     "akamaihd.net": [
       "blizzcon-a.akamaihd.net",
@@ -139,7 +121,8 @@
         "162.158.0.0/15",
         "104.16.0.0/13",
         "104.24.0.0/14",
-        "172.64.0.0/13"
+        "172.64.0.0/13",
+        "66.22.192.0/18"
       ],
       "domains": [
         "*.discord.com",
@@ -200,6 +183,7 @@
         "*.akamaitechnologies.com",
         "*.bnet.io",
         "battle.net",
+        "akamaitechnologies.com",
         "battlenet.com",
         "blizzard.com",
         "blizzard.cn",
