@@ -27,7 +27,6 @@
       "telemetry-in.battle.net",
       "oauth.battle.net",
       "download.battle.net",
-      "patch.battle.net",
       "eu.battle.net",
       "us.battle.net",
       "kr.battle.net",
@@ -35,11 +34,8 @@
     ],
     "blizzard.com": [
       "www.blizzard.com",
-      "launcher.blizzard.com",
-      "patch.blizzard.com",
       "wow.blizzard.com",
       "worldofwarcraft.blizzard.com",
-      "static.worldofwarcraft.com",
       "level3.blizzard.com"
     ]
   },
@@ -88,8 +84,7 @@
         "desktop.telegram.org",
         "comments.app",
         "contest.com",
-        "graph.org",
-        "usercontent.dev"
+        "graph.org"
       ]
     },
     {
@@ -115,7 +110,6 @@
         "discord.com",
         "discordapp.com",
         "discord.gg",
-        "discordapp.net",
         "discord.media",
         "discord.dev",
         "discord.new",
@@ -190,15 +184,11 @@
       "subdomains": [
         "blizzcon-a.akamaihd.net",
         "blzprofile.akamaized.net",
-        "blz-contentstack.com",
-        "blz.nosdn.127.net",
         "blzddist1-a.akamaihd.net",
         "blzmedia-a.akamaihd.net",
         "blznav.akamaized.net",
-        "blzstatic.cn",
         "blzddistkr1-a.akamaihd.net",
         "bnetcmsus-a.akamaihd.net",
-        "blizzard.nefficient.co.kr",
         "blizzard-api.arkoselabs.com",
         "cdp.cloud.unity3d.com"
       ]
@@ -225,15 +215,11 @@
         "blizzard.com",
         "worldofwarcraft.com",
         "wowclassic.com",
-        "worldofwarcraft.blizzard.com",
-        "wow.blizzard.com"
+        "worldofwarcraft.blizzard.com"
       ],
       "subdomains": [
-        "static.worldofwarcraft.com",
         "level3.blizzard.com",
-        "patch.battle.net",
-        "download.battle.net",
-        "prod.realms.battle.net"
+        "download.battle.net"
       ]
     }
   ]
