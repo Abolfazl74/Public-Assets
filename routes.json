@@ -159,7 +159,9 @@
         "136.110.188.0/24",
         "24.105.0.0/20",
         "185.60.112.0/22",
-        "80.239.171.0/24"
+        "80.239.171.0/24",
+        "199.108.0.0/16",
+        "5.42.168.0/22"
       ],
       "domains": [
         "*.battle.net",
@@ -171,7 +173,13 @@
         "blizzard.cn",
         "blizzardgames.cn",
         "blizzardgearstore.com",
-        "battlenet.com.cn"
+        "battlenet.com.cn",
+        "account.battle.net",
+        "oauth.battle.net",
+        "friends.battle.net",
+        "presence.battle.net",
+        "api.battle.net",
+        "bnet.io"
       ],
       "subdomains": [
         "blz-contentstack.com",
