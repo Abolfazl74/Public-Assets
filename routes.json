@@ -1,138 +1,232 @@
-[
-  {
-    "name": "Telegram",
-    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/telegram.png",
-    "description": "Messaging",
-    "processes": ["Telegram.exe", "Telegram Desktop", "org.telegram.messenger"],
-    "cidrs": [
-      "91.108.4.0/22",
-      "91.108.8.0/22",
-      "91.108.12.0/22",
-      "91.108.16.0/22",
-      "91.108.20.0/22",
-      "91.108.56.0/22",
-      "91.105.192.0/23",
-      "91.105.232.0/22",
-      "95.161.64.0/20",
-      "149.154.160.0/20",
-      "185.76.151.0/24",
-      "2001:67c:4e8::/48",
-      "2001:b28:f23c::/48",
-      "2001:b28:f23d::/48",
-      "2001:b28:f23f::/48",
-      "2a0a:f280::/32"
+{
+  "subdomain_lists": {
+    "telegram.org": [
+      "api.telegram.org",
+      "pluto.web.telegram.org",
+      "venus.web.telegram.org",
+      "flora.web.telegram.org",
+      "aurora.web.telegram.org",
+      "k.telegram.org",
+      "z.telegram.org",
+      "socks.telegram.org",
+      "webrtc.telegram.org"
     ],
-    "domains": [
-      "telegram.org",
-      "telegram.me",
-      "t.me",
-      "telegram.dog",
-      "telegram.space",
-      "telesco.pe",
-      "telegra.ph",
-      "tdesktop.com",
-      "web.telegram.org",
-      "core.telegram.org",
-      "desktop.telegram.org",
-      "comments.app"
-    ]
-  },
-  {
-    "name": "Discord",
-    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/discord.png",
-    "description": "Voice & chat",
-    "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe", "update.exe"],
-    "cidrs": [
-      "162.159.0.0/16",
-      "162.158.0.0/15",
-      "104.16.0.0/13",
-      "104.24.0.0/14",
-      "172.64.0.0/13"
+    "discord.com": [
+      "status.discord.com",
+      "images-ext-1.discordapp.net",
+      "images-ext-2.discordapp.net",
+      "latency.discord.media"
     ],
-    "domains": [
-      "discord.com",
-      "discordapp.com",
-      "discord.gg",
-      "discordapp.net",
-      "discord.media",
-      "discord.dev",
-      "discord.new",
-      "discord.gift",
-      "discordstatus.com",
-      "cdn.discordapp.com",
-      "media.discordapp.net",
+    "discord.gg": [
       "gateway.discord.gg",
-      "remote-auth-gateway.discord.gg",
-      "discordcdn.com"
+      "remote-auth-gateway.discord.gg"
+    ],
+    "battle.net": [
+      "www.battle.net",
+      "account.battle.net",
+      "telemetry-in.battle.net",
+      "oauth.battle.net",
+      "download.battle.net",
+      "patch.battle.net",
+      "eu.battle.net",
+      "us.battle.net",
+      "kr.battle.net",
+      "prod.realms.battle.net"
+    ],
+    "blizzard.com": [
+      "www.blizzard.com",
+      "launcher.blizzard.com",
+      "patch.blizzard.com",
+      "wow.blizzard.com",
+      "worldofwarcraft.blizzard.com",
+      "static.worldofwarcraft.com",
+      "level3.blizzard.com"
     ]
   },
-  {
-    "name": "Battle.net",
-    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/battlenet.png",
-    "description": "Game launcher",
-    "processes": ["Battle.net.exe", "Agent.exe", "BlizzardError.exe", "battle.net launcher.exe"],
-    "cidrs": [
-      "137.221.64.0/18",
-      "137.221.105.0/24",
-      "137.221.104.0/24",
-      "136.110.175.0/24",
-      "136.110.188.0/24",
-      "24.105.0.0/20",
-      "18.64.211.0/24",
-      "142.250.75.0/24",
-      "142.251.14.0/24",
-      "85.132.112.0/24",
-      "34.125.60.0/24",
-      "34.16.235.0/24",
-      "34.16.253.0/24",
-      "34.16.217.0/24",
-      "34.110.236.0/24",
-      "34.125.113.0/24",
-      "13.226.247.0/24",
-      "95.101.35.0/24",
-      "99.83.167.0/24",
-      "108.157.232.0/24",
-      "185.60.112.0/22",
-      "80.239.171.0/24"
-    ],
-    "domains": [
-      "battle.net",
-      "battlenet.com",
-      "blizzard.cn",
-      "blizzard.com",
-      "blizzardgames.cn",
-      "blizzardgearstore.com",
-      "blizzcon-a.akamaihd.net",
-      "blz-contentstack.com",
-      "blz.nosdn.127.net",
-      "blzddist1-a.akamaihd.net",
-      "blzmedia-a.akamaihd.net",
-      "blznav.akamaized.net",
-      "blzstatic.cn",
-      "cdp.cloud.unity3d.com",
-      "battlenet.com.cn",
-      "blizzard.nefficient.co.kr",
-      "blzddistkr1-a.akamaihd.net",
-      "akamaized.net",
-      "bnetcmsus-a.akamaihd.net",
-      "blizzard-api.arkoselabs.com"
-    ]
-  },
-  {
-    "name": "World of Warcraft",
-    "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/wow.png",
-    "description": "MMORPG",
-    "processes": ["Wow.exe", "WowClassic.exe", "WowB.exe", "WowT.exe"],
-    "cidrs": [
-      "137.221.64.0/18",
-      "24.105.0.0/20",
-      "185.60.112.0/22"
-    ],
-    "domains": [
-      "worldofwarcraft.com",
-      "wowclassic.com",
-      "battle.net",
-      "blizzard.com"
-    ]
-  }
-]
+  "routes": [
+    {
+      "name": "Telegram",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/telegram.png",
+      "description": "Messaging",
+      "processes": [
+        "Telegram.exe",
+        "Telegram Desktop",
+        "org.telegram.messenger"
+      ],
+      "cidrs": [
+        "91.108.4.0/22",
+        "91.108.8.0/22",
+        "91.108.12.0/22",
+        "91.108.16.0/22",
+        "91.108.20.0/22",
+        "91.108.56.0/22",
+        "91.105.192.0/23",
+        "91.105.232.0/22",
+        "95.161.64.0/20",
+        "149.154.160.0/20",
+        "185.76.151.0/24",
+        "2001:67c:4e8::/48",
+        "2001:b28:f23c::/48",
+        "2001:b28:f23d::/48",
+        "2001:b28:f23f::/48",
+        "2a0a:f280::/32"
+      ],
+      "domains": [
+        "*.telegram.org",
+        "telegram.org",
+        "telegram.me",
+        "t.me",
+        "telegram.dog",
+        "telegram.space",
+        "telesco.pe",
+        "telegra.ph",
+        "tdesktop.com"
+      ],
+      "subdomains": [
+        "web.telegram.org",
+        "core.telegram.org",
+        "desktop.telegram.org",
+        "comments.app",
+        "contest.com",
+        "graph.org",
+        "usercontent.dev"
+      ]
+    },
+    {
+      "name": "Discord",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/discord.png",
+      "description": "Voice & chat",
+      "processes": [
+        "Discord.exe",
+        "DiscordPTB.exe",
+        "DiscordCanary.exe",
+        "update.exe"
+      ],
+      "cidrs": [
+        "162.159.0.0/16",
+        "162.158.0.0/15",
+        "104.16.0.0/13",
+        "104.24.0.0/14",
+        "172.64.0.0/13"
+      ],
+      "domains": [
+        "*.discord.com",
+        "discord.com",
+        "discordapp.com",
+        "discord.gg",
+        "discordapp.net",
+        "discord.media",
+        "discord.dev",
+        "discord.new",
+        "discord.gift",
+        "discord.co",
+        "discord.store",
+        "discord.partners"
+      ],
+      "subdomains": [
+        "discordstatus.com",
+        "cdn.discordapp.com",
+        "media.discordapp.net",
+        "gateway.discord.gg",
+        "remote-auth-gateway.discord.gg",
+        "discordcdn.com"
+      ]
+    },
+    {
+      "name": "Battle.net",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/battlenet.png",
+      "description": "Game launcher",
+      "processes": [
+        "Battle.net.exe",
+        "Agent.exe",
+        "BlizzardError.exe",
+        "battle.net launcher.exe"
+      ],
+      "cidrs": [
+        "137.221.64.0/18",
+        "137.221.105.0/24",
+        "137.221.104.0/24",
+        "136.110.175.0/24",
+        "136.110.188.0/24",
+        "24.105.0.0/20",
+        "18.64.211.0/24",
+        "142.250.75.0/24",
+        "142.251.14.0/24",
+        "85.132.112.0/24",
+        "34.125.60.0/24",
+        "34.16.235.0/24",
+        "34.16.253.0/24",
+        "34.16.217.0/24",
+        "34.110.236.0/24",
+        "34.125.113.0/24",
+        "13.226.247.0/24",
+        "95.101.35.0/24",
+        "99.83.167.0/24",
+        "108.157.232.0/24",
+        "185.60.112.0/22",
+        "80.239.171.0/24"
+      ],
+      "domains": [
+        "*.battle.net",
+        "battle.net",
+        "battlenet.com",
+        "akamaized.net",
+        "*.akamaized.net",
+        "*.blizzard.com",
+        "blizzard.com",
+        "blizzard.cn",
+        "blizzardgames.cn",
+        "blizzardgearstore.com",
+        "battlenet.com.cn"
+      ],
+      "subdomains": [
+        "blizzcon-a.akamaihd.net",
+        "blzprofile.akamaized.net",
+        "blz-contentstack.com",
+        "blz.nosdn.127.net",
+        "blzddist1-a.akamaihd.net",
+        "blzmedia-a.akamaihd.net",
+        "blznav.akamaized.net",
+        "blzstatic.cn",
+        "blzddistkr1-a.akamaihd.net",
+        "bnetcmsus-a.akamaihd.net",
+        "blizzard.nefficient.co.kr",
+        "blizzard-api.arkoselabs.com",
+        "cdp.cloud.unity3d.com"
+      ]
+    },
+    {
+      "name": "World of Warcraft",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/wow.png",
+      "description": "MMORPG",
+      "processes": [
+        "Wow.exe",
+        "WowClassic.exe",
+        "WowB.exe",
+        "WowT.exe"
+      ],
+      "cidrs": [
+        "137.221.64.0/18",
+        "24.105.0.0/20",
+        "185.60.112.0/22"
+      ],
+      "domains": [
+        "*.battle.net",
+        "battle.net",
+        "*.blizzard.com",
+        "blizzard.com",
+        "worldofwarcraft.com",
+        "wowclassic.com",
+        "worldofwarcraft.blizzard.com",
+        "wow.blizzard.com"
+      ],
+      "subdomains": [
+        "static.worldofwarcraft.com",
+        "level3.blizzard.com",
+        "patch.battle.net",
+        "download.battle.net",
+        "prod.realms.battle.net"
+      ]
+    }
+  ]
+}
