@@ -125,16 +125,22 @@
         "208.78.164.0/22" 
       ],
       "domains": [
+        "*.steampowered.com",
         "steampowered.com",
+        "*.steamcommunity.com",
         "steamcommunity.com",
+        "*.steamcontent.com",
+        "*.steamcontent.com",
         "steamcontent.com",
+        "*.steamstatic.com",
         "steamstatic.com",
+        "*.steamserver.net",
         "steamserver.net",
         "steamcommunity-a.akamaihd.net",
         "steamcdn-a.akamaihd.net",
         "steamgames.com",
         "steamusercontent.com",
-        "akamaihd.net"
+        "*.akamaihd.net"
       ],
       "subdomains": [
         
@@ -182,7 +188,6 @@
         "*.bnet.io",
         "*.akamaized.net",
         "battle.net",
-        "akamaitechnologies.com",
         "eu.actual.battle.net",
         "us.actual.battle.net",
         "battlenet.com",
