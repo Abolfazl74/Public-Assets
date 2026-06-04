@@ -282,7 +282,8 @@
         "104.18.0.0/16",
         "104.16.0.0/16",
         "185.200.125.0/24",
-        "172.65.0.0/16"
+        "172.65.0.0/16",
+        "2.16.168.0/24"
       ],
       "domains": [
         "*.pvp.net",
@@ -295,7 +296,7 @@
         "*.akamaitechnologies.com"
       ],
       "subdomains": [
-        "*.valorant.com"
+        "valorant.scd.riotcdn.net"
       ]
     }
   ]
