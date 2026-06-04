@@ -297,6 +297,9 @@
         "*.valorant.com",
         "valorant.com",
         "*.riotcdn.net",
+        "*.sentry.io",
+        "*.akamaihd.net",
+        "gaming-sdk.com",
         "valorant.scd.riotcdn.net",
         "valorant.secure.dyn.riotcdn.net",
         "*.akamaitechnologies.com"
