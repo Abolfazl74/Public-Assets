@@ -267,6 +267,34 @@
         "patch.battle.net",
         "prod.realms.battle.net"
       ]
+    },
+    {
+      "name": "Valorant",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/valorant.png",
+      "description": "Tactical shooter",
+      "processes": [
+        "Valorant.exe",
+        "RiotClientServices.exe",
+        "Riot Client.exe"
+      ],
+      "cidrs": [
+        "104.18.0.0/16",
+        "104.16.0.0/16",
+        "185.200.125.0/24",
+        "172.65.272.0/24"
+      ],
+      "domains": [
+        "*.pvp.net",
+        "pvp.net",
+        "*.valorant.com",
+        "valorant.com",
+        "*.riotcdn.net",
+        "valorant.scd.riotcdn.net",
+        "valorant.secure.dyn.riotcdn.net"
+      ],
+      "subdomains": [
+        "*.valorant.com"
+      ]
     }
   ]
 }
