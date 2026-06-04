@@ -292,7 +292,7 @@
         "*.riotcdn.net",
         "valorant.scd.riotcdn.net",
         "valorant.secure.dyn.riotcdn.net",
-        "*.akamaitechnologies.com",
+        "*.akamaitechnologies.com"
       ],
       "subdomains": [
         "*.valorant.com"
