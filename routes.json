@@ -278,10 +278,11 @@
         "Riot Client.exe"
       ],
       "cidrs": [
+        "104.19.0.0/16",
         "104.18.0.0/16",
         "104.16.0.0/16",
         "185.200.125.0/24",
-        "172.65.272.0/24"
+        "172.65.0.0/16"
       ],
       "domains": [
         "*.pvp.net",
@@ -290,7 +291,8 @@
         "valorant.com",
         "*.riotcdn.net",
         "valorant.scd.riotcdn.net",
-        "valorant.secure.dyn.riotcdn.net"
+        "valorant.secure.dyn.riotcdn.net",
+        "*.akamaitechnologies.com",
       ],
       "subdomains": [
         "*.valorant.com"
