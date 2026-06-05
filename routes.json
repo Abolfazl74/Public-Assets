@@ -1,12 +1,13 @@
 {
+  "version": 2,
   "routes": [
     {
       "name": "Telegram",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/telegram.png",
       "description": "Messaging",
-      "processes": [
-        "Telegram.exe"
-      ],
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": ["Telegram.exe"],
       "cidrs": [
         "91.108.4.0/22",
         "91.108.8.0/22",
@@ -18,12 +19,7 @@
         "91.105.232.0/22",
         "95.161.64.0/20",
         "149.154.160.0/20",
-        "185.76.151.0/24",
-        "2001:67c:4e8::/48",
-        "2001:b28:f23c::/48",
-        "2001:b28:f23d::/48",
-        "2001:b28:f23f::/48",
-        "2a0a:f280::/32"
+        "185.76.151.0/24"
       ],
       "domains": [
         "*.telegram.org",
@@ -59,11 +55,9 @@
       "name": "Discord",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/discord.png",
       "description": "Voice & chat",
-      "processes": [
-        "Discord.exe",
-        "DiscordPTB.exe",
-        "DiscordCanary.exe"
-      ],
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe"],
       "cidrs": [
         "162.159.0.0/16",
         "162.158.0.0/15",
@@ -104,10 +98,9 @@
       "name": "Steam",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/steam.png",
       "description": "Game platform",
-      "processes": [
-        "steam.exe",
-        "steamwebhelper.exe"
-      ],
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": ["steam.exe", "steamwebhelper.exe"],
       "cidrs": [
         "192.69.96.0/22",
         "208.78.164.0/22",
@@ -121,15 +114,13 @@
         "146.66.152.0/21",
         "155.133.224.0/19",
         "185.25.180.0/22",
-        "205.196.6.0/24", 
-        "208.78.164.0/22" 
+        "205.196.6.0/24"
       ],
       "domains": [
         "*.steampowered.com",
         "steampowered.com",
         "*.steamcommunity.com",
         "steamcommunity.com",
-        "*.steamcontent.com",
         "*.steamcontent.com",
         "steamcontent.com",
         "*.steamstatic.com",
@@ -142,14 +133,14 @@
         "steamusercontent.com",
         "*.akamaihd.net"
       ],
-      "subdomains": [
-        
-      ]
+      "subdomains": []
     },
     {
       "name": "Battle.net",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/battlenet.png",
       "description": "Game launcher",
+      "routing_mode": "hybrid",
+      "process_tree": true,
       "processes": [
         "Battle.net.exe",
         "Battle.net Launcher.exe",
@@ -188,8 +179,7 @@
         "54.230.14.0/24",
         "52.33.41.0/24",
         "63.179.61.0/24",
-        "108.157.232.0/24",
-        "63.179.61.0/24"
+        "108.157.232.0/24"
       ],
       "domains": [
         "*.battle.net",
@@ -206,7 +196,7 @@
         "telemetry-in.battle.net",
         "account.battle.net",
         "presence.battle.net",
-        "bnetaccount.akamaized.net",     
+        "bnetaccount.akamaized.net",
         "blz-contentstack-images.akamaized.net",
         "blz-contentstack-assets.akamaized.net",
         "blzddist1-a.akamaihd.net",
@@ -244,16 +234,10 @@
       "name": "World of Warcraft",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/wow.png",
       "description": "MMORPG",
-      "processes": [
-        "Wow.exe",
-        "WowClassic.exe",
-        "WowB.exe",
-        "WowT.exe"
-      ],
-      "cidrs": [
-        "37.244.0.0/16",
-        "66.40.0.0/16"
-      ],
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": ["Wow.exe", "WowClassic.exe", "WowB.exe", "WowT.exe"],
+      "cidrs": ["37.244.0.0/16", "66.40.0.0/16"],
       "domains": [
         "*.battle.net",
         "*.blizzard.com",
@@ -274,18 +258,18 @@
       "name": "Valorant",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/valorant.png",
       "description": "Tactical shooter",
+      "routing_mode": "hybrid",
+      "process_tree": true,
       "processes": [
+        "VALORANT-Win64-Shipping.exe",
         "Valorant.exe",
         "RiotClientServices.exe",
-        "Riot Client.exe"
+        "Riot Client.exe",
+        "vgc.exe",
+        "vgtray.exe"
       ],
       "cidrs": [
-        "104.19.0.0/16",
-        "104.18.0.0/16",
-        "104.16.0.0/16",
         "185.200.125.0/24",
-        "172.65.0.0/16",
-        "172.64.0.0/16",
         "2.16.0.0/16",
         "54.69.98.0/24",
         "34.160.81.0/24",
@@ -295,8 +279,8 @@
       ],
       "domains": [
         "*.pvp.net",
-        "pvp.net",
         "*.valorant.com",
+        "*.riotgames.com",
         "valorant.com",
         "*.riotcdn.net",
         "*.sentry.io",
@@ -306,9 +290,7 @@
         "valorant.secure.dyn.riotcdn.net",
         "*.akamaitechnologies.com"
       ],
-      "subdomains": [
-        "valorant.scd.riotcdn.net"
-      ]
+      "subdomains": ["valorant.scd.riotcdn.net"]
     }
   ]
 }
