@@ -146,6 +146,7 @@
         "Battle.net Launcher.exe",
         "Battle.net Helper.exe",
         "BlizzardBrowser.exe",
+        "battlenet.overlay.runtime.exe",
         "Agent.exe",
         "BlizzardError.exe"
       ],
@@ -237,7 +238,7 @@
       "description": "MMORPG",
       "routing_mode": "hybrid",
       "process_tree": true,
-      "processes": ["Wow.exe", "WowClassic.exe", "WowB.exe", "WowT.exe"],
+      "processes": ["Wow.exe", "WowClassic.exe", "WowB.exe", "WowT.exe", "World of Warcraft Launcher.exe"],
       "cidrs": ["37.244.0.0/16", "66.40.0.0/16"],
       "domains": [
         "*.battle.net",
