@@ -57,7 +57,7 @@
       "description": "Voice & chat",
       "routing_mode": "hybrid",
       "process_tree": true,
-      "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe"],
+      "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe", "Update.exe"],
       "cidrs": [
         "162.159.0.0/16",
         "162.158.0.0/15",
