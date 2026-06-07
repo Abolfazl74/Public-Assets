@@ -297,6 +297,34 @@
         "*.akamaitechnologies.com"
       ],
       "subdomains": ["valorant.scd.riotcdn.net"]
+    },
+    {
+      "name": "Lost Ark",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/lostark.png",
+      "description": "MMORPG",
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": [
+        "LOA.exe",
+        "LOA64.exe",
+        "LOSTARK.exe",
+        "LOSTARKWeb64.ark",
+        "start_protected_game.exe"
+      ],
+      "cidrs": [
+        "3.66.0.0/16",
+        "34.117.59.0/24"
+      ],
+      "domains": [
+        "*.playlostark.com",
+        "playlostark.com",
+        "*.easyanticheat.net",
+        "*.epicgames.com",
+        "launcher.playlostark.com",
+        "live.playlostark.com",
+        "*.akamaitechnologies.com"
+      ],
+      "subdomains": ["live.playlostark.com"]
     }
   ]
 }
