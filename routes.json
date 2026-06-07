@@ -318,10 +318,15 @@
         "34.235.90.0/24",
         "51.156.214.0/24",
         "52.20.171.0/24",
+        "52.28.131.0/24",
+        "52.206.147.0/24",
+        "52.207.57.0/24",
         "54.192.35.0/24",
         "54.236.251.0/24",
         "88.221.169.0/16",
+        "99.84.152.0/16",
         "104.18.0.0/16",
+        "104.26.0.0/16",
         "150.171.28.0/16",
         "188.114.0.0/16"
       ],
@@ -335,6 +340,36 @@
         "*.akamaitechnologies.com"
       ],
       "subdomains": ["live.playlostark.com"]
+    },
+    {
+      "name": "War Thunder",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/warthunder.png",
+      "description": "Vehicle combat game",
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": [
+        "WarThunder.exe",
+        "WarThunder64.exe",
+        "aces.exe"
+      ],
+      "cidrs": [
+        "3.78.62.0/24",
+        "91.225.125.0/24",
+        "92.223.55.0/24",
+        "104.20.0.0/16",
+        "104.66.0.0/16",
+        "172.66.0.0/16",
+        "185.106.205.0/24"
+      ],
+      "domains": [
+        "*.warthunder.com",
+        "warthunder.com",
+        "cdn-live.warthunder.com",
+        "warthunder-gcore.cdn.gaijin.net",
+        "dldata-aws.warthunder.com",
+        "*.akamaitechnologies.com"
+      ],
+      "subdomains": ["warthunder-gcore.cdn.gaijin.net"]
     }
   ]
 }
