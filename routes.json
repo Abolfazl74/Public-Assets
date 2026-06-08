@@ -313,6 +313,8 @@
         "LOA64.exe",
         "LOSTARK.exe",
         "LOSTARKWeb64.ark",
+        "EasyAntiCheat.exe",
+        "EasyAntiCheat_EOS.exe",
         "EOSOverlayRenderer-Win64-Shipping.exe",
         "start_protected_game.exe"
       ],
@@ -364,6 +366,10 @@
         "playlostark.com",
         "*.easyanticheat.net",
         "*.epicgames.com",
+        "*.eac-cdn.com",
+        "*.easyanticheat.net",
+        "*.easy.ac",
+        "easy.ac",
         "launcher.playlostark.com",
         "live.playlostark.com",
         "*.akamaitechnologies.com"
