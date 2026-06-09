@@ -426,6 +426,26 @@
         "fra.login..pathofexile2.com"
       ],
       "subdomains": ["fra.login..pathofexile2.com"]
-    }
+    },
+    {
+      "name": "Phasmophobia",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/Phasmophobia",
+      "description": "Horror (Chikolop Chikolop THAY)",
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": [
+        "Phasmophobia.exe",
+        "UnityCrashHandler64.exe"
+      ],
+      "cidrs": [
+        "35.190.78.8",
+        "34.107.172.168",
+        "34.160.10.162",
+        "34.111.113.40"
+      ],
+      "domains": [
+        "kineticgames.co.uk",
+      ]
+     }
   ]
 }
