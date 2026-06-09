@@ -429,7 +429,7 @@
     },
     {
       "name": "Phasmophobia",
-      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/Phasmophobia",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/Phasmophobia.png",
       "description": "Horror (Chikolop Chikolop THAYE)",
       "routing_mode": "hybrid",
       "process_tree": true,
@@ -438,13 +438,13 @@
         "UnityCrashHandler64.exe"
       ],
       "cidrs": [
-        "35.190.78.8",
-        "34.107.172.168",
-        "34.160.10.162",
-        "34.111.113.40"
+        "35.190.78.0/24",
+        "34.107.172.0/24",
+        "34.160.10.0/24",
+        "34.111.113.0/24"
       ],
       "domains": [
-        "kineticgames.co.uk",
+        "kineticgames.co.uk"
       ]
     }
   ]
