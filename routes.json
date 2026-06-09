@@ -430,7 +430,7 @@
     {
       "name": "Phasmophobia",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/Phasmophobia",
-      "description": "Horror (Chikolop Chikolop THAY)",
+      "description": "Horror (Chikolop Chikolop THAYE)",
       "routing_mode": "hybrid",
       "process_tree": true,
       "processes": [
@@ -446,6 +446,6 @@
       "domains": [
         "kineticgames.co.uk",
       ]
-     }
+    }
   ]
 }
