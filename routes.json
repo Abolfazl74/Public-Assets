@@ -313,14 +313,11 @@
         "LOA64.exe",
         "LOSTARK.exe",
         "LOSTARKWeb64.ark",
-        "EasyAntiCheat.exe",
-        "EasyAntiCheat_EOS.exe",
         "EOSOverlayRenderer-Win64-Shipping.exe",
         "start_protected_game.exe"
       ],
       "cidrs": [
         "3.66.0.0/16",
-        "3.72.174.0/24",
         "3.125.209.0/24",
         "3.167.0.0/16",
         "3.174.0.0/16",
@@ -343,7 +340,6 @@
         "52.20.171.0/24",
         "52.28.0.0/16",
         "52.44.176.0/24",
-        "52.57.80.0/24",
         "52.206.147.0/24",
         "52.207.57.0/24",
         "54.192.35.0/24",
@@ -366,10 +362,6 @@
         "playlostark.com",
         "*.easyanticheat.net",
         "*.epicgames.com",
-        "*.eac-cdn.com",
-        "*.easyanticheat.net",
-        "*.easy.ac",
-        "easy.ac",
         "launcher.playlostark.com",
         "live.playlostark.com",
         "*.akamaitechnologies.com"
