@@ -347,8 +347,8 @@
         "54.242.72.0/24",
         "54.234.253.0/24",
         "54.204.51.0/24",
-        "88.221.169.0/16",
-        "99.84.152.0/16",
+        "88.221.169.0/24",
+        "99.84.152.0/24",
         "104.18.0.0/16",
         "104.26.0.0/16",
         "107.20.204.0/24",
@@ -364,6 +364,7 @@
         "playlostark.com",
         "*.easyanticheat.net",
         "*.epicgames.com",
+        "*.amazonaws.com",
         "launcher.playlostark.com",
         "live.playlostark.com",
         "*.akamaitechnologies.com"
