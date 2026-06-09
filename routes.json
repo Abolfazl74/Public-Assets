@@ -429,7 +429,7 @@
     },
     {
       "name": "Phasmophobia",
-      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/phasmophobia.png",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/Phasmophobia.png",
       "description": "Horror (Chikolop Chikolop THAYE)",
       "routing_mode": "hybrid",
       "process_tree": true,
