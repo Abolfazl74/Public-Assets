@@ -314,13 +314,18 @@
         "LOSTARK.exe",
         "LOSTARKWeb64.ark",
         "EOSOverlayRenderer-Win64-Shipping.exe",
-        "start_protected_game.exe"
+        "start_protected_game.exe",
+        "easyanticheat_eos.exe"
       ],
       "cidrs": [
         "3.66.249.0/24",
         "3.125.209.0/24",
         "3.125.209.0/24",
+        "3.174.46.0/24",
         "34.117.59.0/24",
+        "34.238.149.0/24",
+        "52.1.227.0/24",
+        "52.44.176.0/24",
         "52.87.215.0/24",
         "52.205.34.0/24",
         "104.18.0.0/16",
@@ -332,11 +337,16 @@
         "*.easyanticheat.net",
         "*.epicgames.com",
         "*.amazonaws.com",
+        "*.api.epicgames.dev",
+        "api.epicgames.dev",
         "launcher.playlostark.com",
         "live.playlostark.com",
+        "datarouter.ol.epicgames.com",
+        "modules-cdn.eac-prod.on.epicgames.com",
+        "*.epicgames.com",
         "*.akamaitechnologies.com"
       ],
-      "subdomains": ["live.playlostark.com"]
+      "subdomains": ["live.playlostark.com", "modules-cdn.eac-prod.on.epicgames.com"]
     },
     {
       "name": "War Thunder",
