@@ -162,6 +162,7 @@
         "34.90.0.0/16",
         "34.49.0.0/16",
         "34.91.0.0/16",
+        "35.204.95.0/24",
         "13.227.0.0/16",
         "13.226.0.0/16",
         "3.67.205.0/24",
@@ -429,7 +430,7 @@
     },
     {
       "name": "Phasmophobia",
-      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/phasmophobia.png",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/phasmo.png",
       "description": "Horror (Chikolop Chikolop THAYE)",
       "routing_mode": "hybrid",
       "process_tree": true,
