@@ -462,23 +462,29 @@
         "104.160.141.3/32",
         "104.160.142.3/32",
         "3.164.230.38/32",
+        "23.2.232.161/32",
         "44.193.232.227/32",
-        "155.133.229.0/24",
-        "82.178.158.0/24",
-        "52.223.4.0/24",
-        "18.67.13.0/24",
-        "18.173.187.0/24",
-        "52.223.4.0/24",
-        "185.25.183.0/24",
-        "44.193.232.0/24",
-        "155.133.229.0/24"
+        "65.8.131.49/32",
+        "155.133.224.22/32",
+        "52.223.4.221/32",
+        "18.66.26.72/32",
+        "18.245.31.128"
       ],
       "domains": [
-        "*.battlegrounds.pubg.com",
+        "*.playbattlegrounds.com",
+        "*.steamserver.net",
         "*.pubg.com",
         "pubg.com",
         "*.krafton.com",
-        "*.akamai.net"
+        "*.kraftonde.com",
+        "e8.c.lencr.org",
+        "ocsp.digicert.com",
+        "ext1-bom2.steamserver.net",
+        "prod-live-front.playbattlegrounds.com",
+        "prod-live-cfentry.playbattlegrounds.com",
+        "prod-live-images.playbattlegrounds.com",
+        "zk-ga-pcprod.acs.pubg.com",
+        "log-brofront.kraftonde.com"
       ]
     }
   ]
