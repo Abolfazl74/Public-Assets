@@ -433,12 +433,26 @@
         "*.kraftonde.com",
         "e8.c.lencr.org",
         "ocsp.digicert.com",
+        "cmp1-hkg1.steamserver.net",
+        "cmp2-sgp1.steamserver.net",
+        "cmp2-ams1.steamserver.net",
         "ext1-bom2.steamserver.net",
+        "ext2-bom2.steamserver.net",
+        "ext1-maa2.steamserver.net",
+        "p2p-ams1.discovery.steamserver.net",
+        "p2p-bom2.discovery.steamserver.net",
+        "p2p-fra1.discovery.steamserver.net",
         "prod-live-front.playbattlegrounds.com",
         "prod-live-cfentry.playbattlegrounds.com",
         "prod-live-images.playbattlegrounds.com",
+        "prod-live-xenuine.playbattlegrounds.com",
+        "steamconnecttest.com",
+        "country-code.playbattlegrounds.com",
         "zk-ga-pcprod.acs.pubg.com",
-        "log-brofront.kraftonde.com"
+        "acrt-pcprod.acs.pubg.com",
+        "zkd-pcprod.acs.pubg.com",
+        "log-brofront.kraftonde.com",
+        "pubg1.battleye.com"
       ]
     }
   ]
