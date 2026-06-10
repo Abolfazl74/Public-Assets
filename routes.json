@@ -389,7 +389,8 @@
         "172.65.0.0/16",
         "67.58.99.0/24",
         "23.109.220.0/24",
-        "23.32.239.0/24"
+        "23.32.239.0/24",
+        "134.168.255.0/24"
       ],
       "domains": [
         "*.omantel.net.om",
@@ -428,7 +429,8 @@
       "routing_mode": "hybrid",
       "process_tree": true,
       "processes": [
-        "faceitservice.exe"
+        "faceitservice.exe",
+        "faceitclient.exe"
       ],
       "cidrs": [
         "193.41.200.101/32",
@@ -440,6 +442,34 @@
         "api.faceit.com",
         "*.faceit-cdn.net",
         "distribution.faceit-cdn.net"
+      ]
+    },
+    {
+      "name": "PubG",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/pubg.png",
+      "description": "Battle Royale",
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": [
+        "TslGame.exe",
+        "ExecPubg.exe",
+        "TslGame_BE.exe",
+        "TslGame_ZK.exe",
+        "BEService_pubg.exe",
+        "zksvc.exe"
+      ],
+      "cidrs": [
+        "104.160.141.3/32",
+        "104.160.142.3/32",
+        "82.178.158.0.24",
+        "3.164.230.38/32"
+      ],
+      "domains": [
+        "*.battlegrounds.pubg.com",
+        "*.pubg.com",
+        "pubg.com",
+        "*.krafton.com",
+        "*.akamai.net"
       ]
     }
   ]
