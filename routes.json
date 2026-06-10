@@ -460,6 +460,27 @@
       "domains": [
         "kineticgames.co.uk"
       ]
+    },
+    {
+      "name": "Faceit",
+      "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/faceit.png",
+      "description": "Online competitive gaming platform",
+      "routing_mode": "hybrid",
+      "process_tree": true,
+      "processes": [
+        "faceitservice.exe"
+      ],
+      "cidrs": [
+        "193.41.200.101/32",
+        "193.41.200.102/32"
+      ],
+      "domains": [
+        "*.faceit.com",
+        "ac-client-ws.faceit.com",
+        "api.faceit.com",
+        "*.faceit-cdn.net",
+        "distribution.faceit-cdn.net"
+      ]
     }
   ]
 }
