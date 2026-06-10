@@ -24,31 +24,9 @@
       "domains": [
         "*.telegram.org",
         "telegram.org",
-        "telegram.me",
-        "t.me",
-        "telegram.dog",
-        "telegram.space",
-        "telesco.pe",
-        "telegra.ph",
-        "tdesktop.com"
+        "telegram.me"
       ],
       "subdomains": [
-        "api.telegram.org",
-        "pluto.web.telegram.org",
-        "venus.web.telegram.org",
-        "flora.web.telegram.org",
-        "aurora.web.telegram.org",
-        "k.telegram.org",
-        "z.telegram.org",
-        "socks.telegram.org",
-        "webrtc.telegram.org",
-        "web.telegram.org",
-        "core.telegram.org",
-        "desktop.telegram.org",
-        "comments.app",
-        "contest.com",
-        "graph.org",
-        "usercontent.dev"
       ]
     },
     {
@@ -63,35 +41,18 @@
         "162.158.0.0/15",
         "104.16.0.0/13",
         "104.24.0.0/14",
-        "172.64.0.0/13",
-        "66.22.192.0/18"
+        "172.64.0.0/13"
       ],
       "domains": [
         "*.discord.com",
-        "*.discordapp.net",
+        "updates.discord.com",
         "discord.com",
-        "discordapp.com",
-        "discordapp.net",
-        "discord.gg",
-        "discord.media",
-        "discord.dev",
-        "discord.new",
-        "discord.gift",
-        "discord.co",
-        "discord.store",
-        "discord.partners"
+        "*.discordapp.net",
+        "cdn.discordapp.com",
+        "*.discord.gg",
+        "*.spotify.com"
       ],
       "subdomains": [
-        "status.discord.com",
-        "cdn.discordapp.com",
-        "latency.discord.media",
-        "gateway.discord.gg",
-        "remote-auth-gateway.discord.gg",
-        "images-ext-1.discordapp.net",
-        "images-ext-2.discordapp.net",
-        "media.discordapp.net",
-        "discordstatus.com",
-        "discordcdn.com"
       ]
     },
     {
@@ -179,28 +140,9 @@
         "blzstatic.com",
         "images.blz-contentstack.com",
         "api.battle.net",
-        "blizzard-api.arkoselabs.com",
-        "bnet.io"
+        "blizzard-api.arkoselabs.com"
       ],
       "subdomains": [
-        "www.battle.net",
-        "eu.battle.net",
-        "us.battle.net",
-        "prod.realms.battle.net",
-        "presence.battle.net",
-        "friends.bnet.io",
-        "presence.bnet.io",
-        "static.worldofwarcraft.com",
-        "level3.blizzard.com",
-        "blizzcon-a.akamaihd.net",
-        "blzddist1-a.akamaihd.net",
-        "blzmedia-a.akamaihd.net",
-        "blzddistkr1-a.akamaihd.net",
-        "bnetcmsus-a.akamaihd.net",
-        "blzprofile.akamaized.net",
-        "blzstatic.cn",
-        "blizzard.nefficient.co.kr",
-        "blizzard-api.arkoselabs.com"
       ]
     },
     {
