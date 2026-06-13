@@ -133,7 +133,6 @@
         "blizzardgearstore.com",
         "telemetry-in.battle.net",
         "account.battle.net",
-        "presence.battle.net",
         "bnetaccount.akamaized.net",
         "blz-contentstack-images.akamaized.net",
         "blz-contentstack-assets.akamaized.net",
@@ -141,9 +140,7 @@
         "blzprofile.akamaized.net",
         "bnetstorefront.akamaized.net",
         "bnetcmsus-a.akamaihd.net",
-        "blzstatic.com",
         "images.blz-contentstack.com",
-        "api.battle.net",
         "blizzard-api.arkoselabs.com"
       ],
       "subdomains": [
@@ -164,13 +161,10 @@
         "blizzard.com",
         "worldofwarcraft.com",
         "wowclassic.com",
-        "worldofwarcraft.blizzard.com",
-        "wow.blizzard.com"
+        "worldofwarcraft.blizzard.com"
       ],
       "subdomains": [
-        "download.battle.net",
-        "patch.battle.net",
-        "prod.realms.battle.net"
+        "download.battle.net"
       ]
     },
     {
