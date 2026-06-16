@@ -344,9 +344,9 @@
         "*.omantel.net.om",
         "*.poecdn.com",
         "*.pathofexile2.com",
-        "fra.login..pathofexile2.com"
+        "fra.login.pathofexile2.com"
       ],
-      "subdomains": ["fra.login..pathofexile2.com"]
+      "subdomains": ["fra.login.pathofexile2.com"]
     },
     {
       "name": "Phasmophobia",
