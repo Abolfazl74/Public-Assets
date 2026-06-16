@@ -173,6 +173,7 @@
       "description": "Tactical shooter",
       "routing_mode": "hybrid",
       "process_tree": true,
+      "mtu": 1280,
       "processes": [
         "VALORANT-Win64-Shipping.exe",
         "Valorant.exe",
