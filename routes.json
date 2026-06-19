@@ -135,7 +135,6 @@
         "blizzardgearstore.com",
         "telemetry-in.battle.net",
         "account.battle.net",
-        "bnetaccount.akamaized.net",
         "blz-contentstack-images.akamaized.net",
         "blz-contentstack-assets.akamaized.net",
         "blzddist1-a.akamaihd.net",
@@ -163,6 +162,7 @@
         "blizzard.com",
         "worldofwarcraft.com",
         "wowclassic.com",
+        "bnetaccount.akamaized.net",
         "worldofwarcraft.blizzard.com"
       ],
       "subdomains": [
@@ -335,6 +335,7 @@
         "64.87.52.111/32",
         "23.109.220.0/24",
         "23.32.239.0/24",
+        "23.32.238.147/32",
         "23.35.104.49/32",
         "23.215.2.12/32",
         "109.200.213.135/32",
@@ -363,12 +364,17 @@
         "UnityCrashHandler64.exe"
       ],
       "cidrs": [
+        "23.21.100.26/32",
         "35.190.78.0/24",
         "34.107.172.0/24",
         "34.160.10.0/24",
         "34.111.113.0/24",
         "52.204.69.34/32",
-        "44.214.204.1/32"
+        "44.214.204.1/32",
+        "85.236.99.62/32",
+        "85.236.99.63/32",
+        "216.120.180.19/32",
+        "216.120.180.108/32"
       ],
       "domains": [
         "kineticgames.co.uk"
