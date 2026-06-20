@@ -274,15 +274,13 @@
         "*.amazonaws.com",
         "*.api.epicgames.dev",
         "api.epicgames.dev",
-        "launcher.playlostark.com",
-        "live.playlostark.com",
         "datarouter.ol.epicgames.com",
         "modules-cdn.eac-prod.on.epicgames.com",
         "*.timeserver.pub",
         "*.epicgames.com",
         "*.akamaitechnologies.com"
       ],
-      "subdomains": ["live.playlostark.com", "modules-cdn.eac-prod.on.epicgames.com"]
+      "subdomains": ["modules-cdn.eac-prod.on.epicgames.com"]
     },
     {
       "name": "War Thunder",
