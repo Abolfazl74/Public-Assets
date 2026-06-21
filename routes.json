@@ -5,9 +5,10 @@
       "name": "Telegram",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/telegram.png",
       "description": "Messaging",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": ["Telegram.exe"],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "91.108.4.0/22",
         "91.108.8.0/22",
@@ -33,9 +34,10 @@
       "name": "Discord",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/discord.png",
       "description": "Voice & chat",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": ["Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe", "Update.exe"],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "162.159.0.0/16",
         "162.158.0.0/15",
@@ -59,7 +61,7 @@
       "name": "Battle.net",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/battlenet.png",
       "description": "Game launcher",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": [
         "Battle.net.exe",
@@ -70,6 +72,7 @@
         "Agent.exe",
         "BlizzardError.exe"
       ],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "137.221.0.0/16",
         "136.110.0.0/16",
@@ -151,9 +154,10 @@
       "name": "World of Warcraft",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/wow.png",
       "description": "MMORPG",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": ["Wow.exe", "WowClassic.exe", "WowB.exe", "WowT.exe", "World of Warcraft Launcher.exe"],
+      "protocols": ["tcp", "udp"],
       "cidrs": ["37.244.0.0/16", "66.40.0.0/16"],
       "domains": [
         "*.battle.net",
@@ -173,7 +177,7 @@
       "name": "Valorant",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/valorant.png",
       "description": "Tactical shooter",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": [
         "VALORANT-Win64-Shipping.exe",
@@ -183,6 +187,7 @@
         "vgc.exe",
         "vgtray.exe"
       ],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "185.200.125.0/24",
         "104.16.0.0/16",
@@ -217,7 +222,7 @@
       "name": "Lost Ark",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/lostark.png",
       "description": "MMORPG",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": [
         "LOA.exe",
@@ -228,6 +233,7 @@
         "start_protected_game.exe",
         "easyanticheat_eos.exe"
       ],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "3.66.249.236/32",
         "3.66.94.123/32",
@@ -291,13 +297,14 @@
       "name": "War Thunder",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/warthunder.png",
       "description": "Vehicle combat game",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": [
         "WarThunder.exe",
         "WarThunder64.exe",
         "aces.exe"
       ],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "3.78.62.0/24",
         "72.153.5.0/24",
@@ -323,11 +330,12 @@
       "name": "Path of Exile",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/poe2.png",
       "description": "RPG",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": [
         "PathOfExileSteam.exe"
       ],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "2.16.238.0/24",
         "82.178.158.0/24",
@@ -360,12 +368,13 @@
       "name": "Phasmophobia",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/phasmo.png",
       "description": "Horror (Chikolop Chikolop THAYE)",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": [
         "Phasmophobia.exe",
         "UnityCrashHandler64.exe"
       ],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "23.21.100.26/32",
         "35.190.78.0/24",
@@ -387,7 +396,7 @@
       "name": "Faceit",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/faceit.png",
       "description": "Online competitive gaming platform",
-      "routing_mode": "hybrid",
+      "routing_mode": "legacy",
       "process_tree": true,
       "processes": [
         "faceitservice.exe",
@@ -397,6 +406,7 @@
         "193.41.200.101/32",
         "193.41.200.102/32"
       ],
+      "protocols": ["tcp", "udp"],
       "domains": [
         "*.faceit.com",
         "ac-client-ws.faceit.com",
@@ -409,7 +419,7 @@
       "name": "PubG",
       "icon": "https://raw.githubusercontent.com/Abolfazl74/Public-Assets/refs/heads/main/icons/pubg.png",
       "description": "Battle Royale",
-      "routing_mode": "hybrid",
+      "routing_mode": "app",
       "process_tree": true,
       "processes": [
         "TslGame.exe",
@@ -420,6 +430,7 @@
         "BEService.exe",
         "zksvc.exe"
       ],
+      "protocols": ["tcp", "udp"],
       "cidrs": [
         "104.160.141.3/32",
         "104.160.141.3/32",
